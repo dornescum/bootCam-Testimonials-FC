@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- displays site properly based on user's device -->
+
+    <link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="output.css" rel="stylesheet">
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body class="min-h-full bg-white font-inter">
+
+
+<main class="flex flex-col text-base md:text-2xl">
+    <div class="container mx-auto lg:mt-[8rem] font-thin tracking-normal md:tracking-widest">
+        <div class="bg-white flex flex-col lg:flex-row items-center justify-center md:justify-between lg:h-[40rem] relative">
+
+            <div class="w-full md:w-1/2 px-4 mx-4 md:md:mx-8  h-full order-2 lg:order-1">
+                <div class="w-full md:w-[50rem] z-20 h-96 md:h-full flex items-center justify-center">
+                    <div class="flex flex-col mx-1 md:mx-12">
+                        <div class="">
+                            <img alt="quotes" class="h-12 md:h-24 absolute mb-8 left-[40%] md:left-[25%] md:top-[30%] z-0"
+                                 src="./images/pattern-quotes.svg">
+                        </div>
+                        <p class=" md:absolute md:top-[35%] md:left-[15%] text-stone-600 z-30 pt-8 leading-8 md:leading-10 mx-8 text-center md:text-left
+        md:w-[40rem] md:h-60 ">
+                            “ I’ve been interested in coding for a while but never taken the jump, until now.
+                            I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+                            excited about the future. ”
+                        </p>
+                            <ul class="flex flex-col md:flex-row pt-8 md:pl-2 items-center md:absolute md:top-[70%] md:left-[16%]">
+                                <li class="font-bold md:px-2"> Tanya Sinclair</li>
+                                <li class="font-thin text-stone-300 md:px-2">UX Engineer</li>
+                            </ul>
+                    </div>
+
+                </div>
+            </div>
+<!--==========-->
+            <div class="w-full md:w-1/2 px-4 mx-1 md:mx-8 mt-12 mb-20 h-full order-1 lg:order-2 h-80">
+                <div class="relative">
+                    <img alt="" class="z-0  absolute h-96 w-96 md:h-[40rem] md:w-[50rem]  min-w-[12rem] md:min-w-[45rem] md:-top-32 md:right-8"
+                         src="./images/pattern-bg.svg">
+                    <div class="flex items-center justify-center">
+                        <img alt="picture"
+                             class="z-10  h-80 md:h-[35rem]  w-80 w-[35rem] min-w-[12rem] mb-8 mt-8 rounded-xl md:absolute md:-top-32
+                             md:-left-[10%] shadow-2xl"
+                             src="./images/image-tanya.jpg">
+                    </div>
+
+
+                </div>
+                <!--                <div class="">-->
+                <div class="absolute left-[35%] md:left-[60%] inline-block bottom-[50%] md:bottom-[2%] z-20 bg-white rounded-3xl">
+                    <button class="bg-white rounded-tl-3xl rounded-bl-3xl  py-2 pl-3 pr-5">
+                        <img alt="prev button" src="./images/icon-prev.svg">
+                    </button>
+                    <button class="bg-white rounded-tr-3xl rounded-br-3xl  py-2 pl-5 pr-3">
+                        <img alt="next button" src="./images/icon-next.svg">
+                    </button>
+                </div>
+                <!--                </div>-->
+
+            </div>
+        </div>
+    </div>
+
+    <img src="./images/pattern-curve.svg" alt="" class="hidden md:block md:h-48 md:w-[60rem]">
+</main>
+
+<div class="attribution absolute bottom-0">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+</div>
+</body>
+</html>
+<!--npx tailwindcss -i ./style/input.css -o ./public/output.css &#45;&#45;watch-->
+
+
+<!--“ I’ve been interested in coding for a while but never taken the jump, until now.-->
+<!--I couldn’t recommend this course enough. I’m now in the job of my dreams and so-->
+<!--excited about the future. ”-->
+
+<!--Tanya Sinclair-->
+<!--UX Engineer-->
+
+<!--“ If you want to lay the best foundation possible I’d recommend taking this course.-->
+<!--The depth the instructors go into is incredible. I now feel so confident about-->
+<!--starting up as a professional developer. ”-->
+
+<!--John Tarkpor-->
+<!--Junior Front-end Developer-->
+
+<!--<div class="w-full md:w-1/2 h-full flex items-center justify-center order-2 md:order-1 mt-20 relative">-->
+<!--    <div class=" w-full md:w-[50rem] z-20 h-96">-->
+<!--        <div class="flex flex-col mx-1 md:mx-12 ">-->
+<!--            <div class="relative">-->
+<!--                <img alt="quotes" src="./images/pattern-quotes.svg" class=" top-[80%] left-24 z-0">-->
+<!--            </div>-->
+
+<!--            <p class="text-stone-600 z-10 leading-8 md:leading-10 mx-8">-->
+<!--                “ I’ve been interested in coding for a while but never taken the jump, until now.-->
+<!--                I couldn’t recommend this course enough. I’m now in the job of my dreams and so-->
+<!--                excited about the future. ”-->
+<!--            </p>-->
+<!--            <div class="flex flex-col md:flex-row pt-8">-->
+<!--                <p class="font-bold ">Tanya Sinclair <span class="font-thin text-stone-300"> UX Engineer</span></p>-->
+<!--            </div>-->
+
+<!--        </div>-->
+
+<!--    </div>-->
+<!--</div>-->
