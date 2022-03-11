@@ -1,12 +1,21 @@
 @import "../utils/Mixins";
+@import "../utils/Variables";
 
 .card {
   @include display_flex();
   position: relative;
   height: 50vh;
-  margin: 5rem 0 0 0;
-  //overflow: hidden;
-
+  margin: 10rem 0 0 0;
+  @media (max-width: $lg-desktop) {
+  }
+  @media (max-width: $tablet) {
+    flex-direction: column-reverse;
+    margin: 9rem 0 0 0;
+  }
+  @media (max-width: $sm) {
+    flex-direction: column-reverse;
+    margin: 6rem 0 0 0;
+  }
   @media (max-width: 480px) {
     flex-direction: column-reverse;
     margin: 6rem 0 0 0;

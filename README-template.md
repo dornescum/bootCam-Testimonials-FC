@@ -109,3 +109,19 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+
+
+<!--“ I’ve been interested in coding for a while but never taken the jump, until now.-->
+<!--I couldn’t recommend this course enough. I’m now in the job of my dreams and so-->
+<!--excited about the future. ”-->
+
+<!--Tanya Sinclair-->
+<!--UX Engineer-->
+
+<!--“ If you want to lay the best foundation possible I’d recommend taking this course.-->
+<!--The depth the instructors go into is incredible. I now feel so confident about-->
+<!--starting up as a professional developer. ”-->
+
+<!--John Tarkpor-->
+<!--Junior Front-end Developer-->

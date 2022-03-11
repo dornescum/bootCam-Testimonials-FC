@@ -1,4 +1,4 @@
-
+@import "Variables";
 /* reset styles */
 * {
     color: inherit;
@@ -7,10 +7,10 @@
 
 html,body {
     font-family: 'Inter', sans-serif;
-    //min-height: 100vh;
-    //height: 100%;
-    //background: lightblue;
     height: 100vh;
+    width: auto!important;
+    overflow-x: hidden!important;
+    position: relative;
 }
 
 ul {
@@ -40,4 +40,40 @@ img {
 
 h1 {
     color: blue;
+}
+@keyframes anim-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-1px);
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.show {
+    display: block;
+    animation: anim-left .5s ease-in-out;
+    position: absolute;
+    z-index: 1;
+}
+.fix-error{
+    margin: 0 0 10rem 0;
+    @media (max-width: $tablet-bg) {
+        margin: 0 0 10rem 0;
+    }
+    @media (max-width: $tablet) {
+        margin: 0 0 25rem 0;
+    }
+    @media (max-width: 480px) {
+        margin: 0 0 20rem 0;
+    }
+}
+.waze{}
+#author{
+    color: $lightBlue;
 }
