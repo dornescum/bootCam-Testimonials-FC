@@ -20,28 +20,28 @@ const users = [
 		image: './images/image-john.jpg'
 	}
 ];
-let slide = 0;
+let article = 0;
 
 
 addEventListener('load', () => {
 	image.innerHTML = `
-	         <img src="./images/pattern-bg.svg" alt="" id="pattern">
-			<img src="${users[slide].image}" alt="" id="person">`;
-	para.innerHTML = ` <p>${users[slide].paragraph}</p>`;
-	job.innerHTML = `${users[slide].job}`;
-	name.innerHTML = `${users[slide].name}`;
+	         <img src="./images/pattern-bg.svg" alt="some pattern" id="pattern">
+			<img src="${users[article].image}" alt="${users[article].name}" id="person">`;
+	para.innerHTML = ` <p>${users[article].paragraph}</p>`;
+	job.innerHTML = `${users[article].job}`;
+	name.innerHTML = `${users[article].name}`;
 });
 
-const navigation = () => {
-	if (slide > users.length - 1) {
-		slide = 0;
+const directions = () => {
+	if (article > users.length - 1) {
+		article = 0;
 	}
 	image.innerHTML = ` <img src="./images/pattern-bg.svg" alt="" id="pattern">
-						<img src="${users[slide].image}" alt="${name}" id="person" class="show">`;
-	para.innerHTML = `<p>${users[slide].paragraph}</p>`;
-	job.innerHTML = `${users[slide].job}`;
-	name.innerHTML = `${users[slide].name}`;
-	slide++;
+						<img src="${users[article].image}" alt="${name}" id="person" class="show">`;
+	para.innerHTML = `<p>${users[article].paragraph}</p>`;
+	job.innerHTML = `${users[article].job}`;
+	name.innerHTML = `${users[article].name}`;
+	article++;
 };
-prevBtn.addEventListener('click', navigation);
-nextBtn.addEventListener('click', navigation);
+prevBtn.addEventListener('click', directions);
+nextBtn.addEventListener('click', directions);
